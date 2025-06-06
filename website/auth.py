@@ -2,14 +2,14 @@ from flask import Blueprint
 
 auth = Blueprint('auth', __name__)
 
-auth.route('/login')
+@auth.route('/login')
 def login():
-    return "<h1>Login</h1>"
+    return "<p>Login</p>"
 
-auth.route('/logout')
+@auth.route('/logout')
 def logout():
-    return "<h1>Logout</h1>"
+    return "<p>Logout</p>"
 
-auth.route('/sign-up')
+@auth.route('/sign-up')
 def register():
-    return "<h1>Sign Up</h1>"
+    return "<p>Sign Up</p>"
