@@ -1,6 +1,6 @@
 # 📝 Flask Notes Web App
 
-A simple, secure notes web application built with **Flask** to demonstrate backend development skills including user authentication, form handling, database modeling, and RESTful routing. Users can register, log in, add notes, and delete them. The app uses **Flask-Login** for session management and **Bootstrap 4** for styling.
+A simple, secure notes web application built with **Flask** that includes user authentication, form handling, database modeling, and RESTful routing. Users can register, log in, add notes, and delete them. The app uses **Flask-Login** for session management and **Bootstrap 4** for styling.
 
 ---
 
